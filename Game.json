@@ -1,0 +1,246 @@
+{
+  "name": "Valiance TCG - Playtest",
+  "menuBackgroundImage": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/basic-mat-design.png",
+  "cardRotation": 90,
+  "customHelp": "VALIANCE PLAYTEST\n\nDECK BUILDING\nA Spellbook has 40-60 Pages, no more than three copies of a Page. Each component after the first raises the minimum by 10 Pages.\n\nHealth: use the native 100-point counter.\nAether: Recovery charges 1 (maximum 10); the final player in turn order begins with 1.\nPlan: your hand. Spellbook: your deck. Memory: your public discard pile.\n\nTURN\n1. Recovery - Read 1, charge 1 Aether, refresh Familiars and Constructs.\n2. Planning - conjure one unique Familiar, enact Strategies, transmute Constructs, and use enchant/EPIC skills.\n3. Action - choose exactly one: Charge 1, Read 1, or cast a Spell (the starting player cannot cast on turn one).\n4. End - move Play Area cards to Memory and clear both Spell Power values.\n\nCOMBAT\nCast a Spell into the Play Area, manually add its total to your Spell Power, and alternate priority until everyone passes. Higher spell power deals the difference to a targeted player, or dispels a targeted exhausted Familiar. TCG Arena is the tabletop simulator; resolve card skills and targets between players.",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/basic-mat-design.png"
+    ]
+  },
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/cards.json",
+    "cardBack": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/valiance-card-back.svg",
+    "cardBackColor": "#151917"
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "type",
+      "cost",
+      "component",
+      "power"
+    ],
+    "formats": [
+      {
+        "title": "Standard Playtest",
+        "gameplay": "Standard",
+        "deckRuleset": "ValianceStandard"
+      }
+    ],
+    "deckRulesets": {
+      "ValianceStandard": {
+        "general": {
+          "min": 40,
+          "max": 60,
+          "maxPerCard": 3
+        }
+      }
+    }
+  },
+  "gameplay": {
+    "Standard": {
+      "defaultNotes": "Turn steps: Recovery → Planning → Action → End\nAether: 0/10\nSpell power: 0\nRemember: only the first spell may target an exhausted Familiar.",
+      "mulligan": {
+        "startingHandSize": 5,
+        "mulliganCount": {
+          "max": 0
+        }
+      },
+      "newTurn": {
+        "drawOnStart": true,
+        "drawPerTurn": 1
+      },
+      "countersStartingValues": [
+        100
+      ],
+      "sections": {
+        "layout": {
+          "direction": "column",
+          "content": [
+            {
+              "direction": "row",
+              "content": [
+                {
+                  "section": "Aether",
+                  "style": {
+                    "width": "8rem"
+                  }
+                },
+                {
+                  "section": "SpellPower",
+                  "style": {
+                    "width": "10rem"
+                  }
+                }
+              ]
+            },
+            {
+              "section": "Play",
+              "style": {
+                "minHeight": "12vh"
+              }
+            },
+            {
+              "section": "Familiar",
+              "style": {
+                "minHeight": "18vh"
+              }
+            },
+            {
+              "section": "Construct",
+              "style": {
+                "minHeight": "18vh"
+              }
+            },
+            {
+              "direction": "row",
+              "isSymmetricalForOpponents": true,
+              "content": [
+                {
+                  "section": "Deck",
+                  "style": {
+                    "width": "20%"
+                  }
+                },
+                {
+                  "section": "Memory",
+                  "style": {
+                    "width": "80%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "autoPlayFromHand": {
+          "Familiar": "Familiar",
+          "Construct": "Construct",
+          "Strategy": "Play",
+          "Spell": "Play"
+        },
+        "sectionsDict": {
+          "Aether": {
+            "type": "custom",
+            "defaultValue": {
+              "value": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "grid",
+                  "gap": "0.25rem",
+                  "padding": "0.5rem",
+                  "fontWeight": "700"
+                }
+              },
+              "children": [
+                "Aether",
+                {
+                  "type": "input-number",
+                  "props": {
+                    "value": "{{ game.data.Aether.value }}",
+                    "min": 0,
+                    "max": 10
+                  },
+                  "onChange": "game.data.Aether.value = Math.max(0, Math.min(10, Number(value))); functions.chatLog('Aether ' + deltaDisplay)"
+                },
+                {
+                  "type": "div",
+                  "children": [
+                    {
+                      "type": "button",
+                      "children": "−",
+                      "onClick": "game.data.Aether.value = Math.max(0, game.data.Aether.value - 1)"
+                    },
+                    {
+                      "type": "button",
+                      "children": "+",
+                      "onClick": "game.data.Aether.value = Math.min(10, game.data.Aether.value + 1)"
+                    }
+                  ]
+                }
+              ]
+            },
+            "events": {
+              "onPlayersReady": "game.data.Aether.value = game.turn.orderPosition === game.turn.totalPlayers - 1 ? 1 : 0",
+              "onNewTurn": "if (game.turn.isMyTurn) game.data.Aether.value = Math.min(10, game.data.Aether.value + 1)"
+            }
+          },
+          "SpellPower": {
+            "type": "custom",
+            "defaultValue": {
+              "value": 0
+            },
+            "blueprint": {
+              "type": "div",
+              "props": {
+                "style": {
+                  "display": "grid",
+                  "gap": "0.25rem",
+                  "padding": "0.5rem",
+                  "fontWeight": "700"
+                }
+              },
+              "children": [
+                "Spell Power",
+                {
+                  "type": "input-number",
+                  "props": {
+                    "value": "{{ game.data.SpellPower.value }}",
+                    "min": 0
+                  },
+                  "onChange": "game.data.SpellPower.value = Math.max(0, Number(value)); functions.chatLog('Spell power ' + deltaDisplay)"
+                },
+                {
+                  "type": "button",
+                  "children": "Clear after combat",
+                  "onClick": "game.data.SpellPower.value = 0"
+                }
+              ]
+            },
+            "events": {
+              "onNewTurn": "game.data.SpellPower.value = 0"
+            }
+          },
+          "Play": {
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "CENTER",
+            "displayedTitle": "Play Area",
+            "cardActionShortcut": {
+              "action": "MOVE",
+              "actionData": {
+                "destination": "Memory"
+              }
+            }
+          },
+          "Familiar": {
+            "isHidden": "no",
+            "height": 18,
+            "alignment": "CENTER",
+            "displayedTitle": "Familiar Zone"
+          },
+          "Construct": {
+            "isHidden": "no",
+            "height": 18,
+            "alignment": "CENTER",
+            "displayedTitle": "Construct Zone"
+          },
+          "Deck": {
+            "isHidden": "yes",
+            "height": 12,
+            "alignment": "DECK",
+            "displayedTitle": "Spellbook"
+          },
+          "Memory": {
+            "isHidden": "no",
+            "height": 12,
+            "alignment": "CENTER",
+            "displayedTitle": "Memory"
+          }
+        }
+      }
+    }
+  }
+}

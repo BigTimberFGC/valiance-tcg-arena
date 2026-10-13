@@ -1,0 +1,2340 @@
+{
+  "ember_lance": {
+    "id": "ember_lance",
+    "name": "Ember Lance",
+    "type": "Spell",
+    "cost": 1,
+    "power": 5,
+    "component": "Pyromancy",
+    "text": "Playtest page. Base spell power 5.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Ember Lance"
+        },
+        "type": "Spell",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "hot_shot": {
+    "id": "hot_shot",
+    "name": "Hot Shot",
+    "type": "Spell",
+    "cost": 1,
+    "power": 10,
+    "component": "Pyromancy",
+    "text": "Rulebook example page. Resolve its printed skills manually.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Hot Shot"
+        },
+        "type": "Spell",
+        "cost": 1,
+        "image": "https://i.imgur.com/yVf8iiT_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "tidal_veil": {
+    "id": "tidal_veil",
+    "name": "Tidal Veil",
+    "type": "Spell",
+    "cost": 2,
+    "power": 8,
+    "component": "Hydromancy",
+    "text": "Playtest page. Base spell power 8.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Tidal Veil"
+        },
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "umbral_needle": {
+    "id": "umbral_needle",
+    "name": "Umbral Needle",
+    "type": "Spell",
+    "cost": 2,
+    "power": 6,
+    "component": "Umbramancy",
+    "text": "Playtest page. Base spell power 6.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Umbral Needle"
+        },
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "mind_thread": {
+    "id": "mind_thread",
+    "name": "Mind Thread",
+    "type": "Spell",
+    "cost": 3,
+    "power": 7,
+    "component": "Psychomancy",
+    "text": "Playtest page. Base spell power 7.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Mind Thread"
+        },
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "aether_cancel": {
+    "id": "aether_cancel",
+    "name": "Aether Cancel",
+    "type": "Spell",
+    "cost": 2,
+    "power": 0,
+    "component": "Null",
+    "text": "Protect playtest page. In Memory it cannot be targeted by skills.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Aether Cancel"
+        },
+        "type": "Spell",
+        "cost": 2,
+        "image": "https://i.imgur.com/a8k5bTn_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "cinder_fox": {
+    "id": "cinder_fox",
+    "name": "Cinder Fox",
+    "type": "Familiar",
+    "cost": 1,
+    "power": 1,
+    "component": "Pyromancy",
+    "text": "[Exhaust] Enchant: Your next spell gains +1 power.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Cinder Fox"
+        },
+        "type": "Familiar",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "stone_sentinel": {
+    "id": "stone_sentinel",
+    "name": "Stone Sentinel",
+    "type": "Familiar",
+    "cost": 2,
+    "power": 0,
+    "component": "Geomancy",
+    "text": "A refreshed familiar may parry the first incoming spell.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Stone Sentinel"
+        },
+        "type": "Familiar",
+        "cost": 2,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "gale_mantle": {
+    "id": "gale_mantle",
+    "name": "Gale Mantle",
+    "type": "Familiar",
+    "cost": 2,
+    "power": 1,
+    "component": "Aeromancy",
+    "text": "Playtest Familiar. Resolve its skills manually.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Gale Mantle"
+        },
+        "type": "Familiar",
+        "cost": 2,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "rootbound_sage": {
+    "id": "rootbound_sage",
+    "name": "Rootbound Sage",
+    "type": "Familiar",
+    "cost": 3,
+    "power": 1,
+    "component": "Biomancy",
+    "text": "Playtest Familiar. Resolve its skills manually.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Rootbound Sage"
+        },
+        "type": "Familiar",
+        "cost": 3,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "runic_lens": {
+    "id": "runic_lens",
+    "name": "Runic Lens",
+    "type": "Construct",
+    "cost": 2,
+    "power": 1,
+    "component": "Astromancy",
+    "text": "[Exhaust] Enchant: Your next spell gains +1 power.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Runic Lens"
+        },
+        "type": "Construct",
+        "cost": 2,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "iron_ward": {
+    "id": "iron_ward",
+    "name": "Iron Ward",
+    "type": "Construct",
+    "cost": 3,
+    "power": 2,
+    "component": "Ferromancy",
+    "text": "Playtest Construct. Resolve its skills manually.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Iron Ward"
+        },
+        "type": "Construct",
+        "cost": 3,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "flash_focus": {
+    "id": "flash_focus",
+    "name": "Flash Focus",
+    "type": "Strategy",
+    "cost": 1,
+    "power": 2,
+    "component": "Electromancy",
+    "text": "Enact: Your next spell gains +2 power this turn.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Flash Focus"
+        },
+        "type": "Strategy",
+        "cost": 1,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "starfold": {
+    "id": "starfold",
+    "name": "Starfold",
+    "type": "Strategy",
+    "cost": 2,
+    "power": 3,
+    "component": "Astromancy",
+    "text": "Playtest Strategy. Resolve its skills manually.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Starfold"
+        },
+        "type": "Strategy",
+        "cost": 2,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "ash_guard": {
+    "id": "ash_guard",
+    "name": "Ash Guard",
+    "type": "Strategy",
+    "cost": 2,
+    "power": 0,
+    "component": "Pyromancy",
+    "text": "Playtest Strategy. Resolve its skills manually.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Ash Guard"
+        },
+        "type": "Strategy",
+        "cost": 2,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "prism_shift": {
+    "id": "prism_shift",
+    "name": "Prism Shift",
+    "type": "Spell",
+    "cost": 3,
+    "power": 4,
+    "component": "Chorimancy",
+    "text": "Playtest page. Base spell power 4.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Prism Shift"
+        },
+        "type": "Spell",
+        "cost": 3,
+        "image": "https://raw.githubusercontent.com/BigTimberFGC/valiance-tcg-arena/main/assets/playtest-page.svg"
+      }
+    }
+  },
+  "official_rapid_fire": {
+    "id": "official_rapid_fire",
+    "name": "Rapid Fire",
+    "type": "Page",
+    "cost": 0,
+    "component": "Pyromancy",
+      "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Rapid Fire"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/DwHvbI9_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_volatile_fireball": {
+    "id": "official_volatile_fireball",
+    "name": "Volatile Fireball",
+    "type": "Page",
+    "cost": 0,
+    "component": "Pyromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Volatile Fireball"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/PzVNNkI_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_volcanic_meteor_shower": {
+    "id": "official_volcanic_meteor_shower",
+    "name": "Volcanic Meteor Shower",
+    "type": "Page",
+    "cost": 0,
+    "component": "Pyromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Volcanic Meteor Shower"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/oIwOeji_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_immolating_dragonfire": {
+    "id": "official_immolating_dragonfire",
+    "name": "Immolating Dragonfire",
+    "type": "Page",
+    "cost": 0,
+    "component": "Pyromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Immolating Dragonfire"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/7Nc3OZn_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_pheonix_flare": {
+    "id": "official_pheonix_flare",
+    "name": "Pheonix Flare",
+    "type": "Page",
+    "cost": 0,
+    "component": "Pyromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Pheonix Flare"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/sXs0BHm_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_pyro_elemental": {
+    "id": "official_pyro_elemental",
+    "name": "Pyro Elemental",
+    "type": "Page",
+    "cost": 0,
+    "component": "Pyromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Pyro Elemental"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Oap5uSS_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_cheap_shot": {
+    "id": "official_cheap_shot",
+    "name": "Cheap Shot",
+    "type": "Page",
+    "cost": 0,
+    "component": "Pyromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Cheap Shot"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/eZKYgJo_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_component_gem_pyromancy": {
+    "id": "official_component_gem_pyromancy",
+    "name": "Component Gem: Pyromancy",
+    "type": "Page",
+    "cost": 0,
+    "component": "Pyromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Component Gem: Pyromancy"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/P8u52PO_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_pyrotech_cannon": {
+    "id": "official_pyrotech_cannon",
+    "name": "Pyrotech Cannon",
+    "type": "Page",
+    "cost": 0,
+    "component": "Pyromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Pyrotech Cannon"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/lKGQTIG_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_blazing_battleaxe": {
+    "id": "official_blazing_battleaxe",
+    "name": "Blazing Battleaxe",
+    "type": "Page",
+    "cost": 0,
+    "component": "Pyromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Blazing Battleaxe"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/oEFvTUY_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_cresting_ebb": {
+    "id": "official_cresting_ebb",
+    "name": "Cresting Ebb",
+    "type": "Page",
+    "cost": 0,
+    "component": "Hydromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Cresting Ebb"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/rH8vFSm_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_cascading_tide": {
+    "id": "official_cascading_tide",
+    "name": "Cascading Tide",
+    "type": "Page",
+    "cost": 0,
+    "component": "Hydromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Cascading Tide"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/RHPgOIt_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_crashing_wave": {
+    "id": "official_crashing_wave",
+    "name": "Crashing Wave",
+    "type": "Page",
+    "cost": 0,
+    "component": "Hydromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Crashing Wave"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/XWweU6J_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_absolute_zero_tsunami": {
+    "id": "official_absolute_zero_tsunami",
+    "name": "Absolute Zero Tsunami",
+    "type": "Page",
+    "cost": 0,
+    "component": "Hydromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Absolute Zero Tsunami"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/XLAGYqE_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_revolving_whirlpool": {
+    "id": "official_revolving_whirlpool",
+    "name": "Revolving Whirlpool",
+    "type": "Page",
+    "cost": 0,
+    "component": "Hydromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Revolving Whirlpool"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/aVp5cg4_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_geyser_blast": {
+    "id": "official_geyser_blast",
+    "name": "Geyser Blast",
+    "type": "Page",
+    "cost": 0,
+    "component": "Hydromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Geyser Blast"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/V1OSG83_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_hydro_elemental": {
+    "id": "official_hydro_elemental",
+    "name": "Hydro Elemental",
+    "type": "Page",
+    "cost": 0,
+    "component": "Hydromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Hydro Elemental"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/4F9dPYC_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_ripping_droplet": {
+    "id": "official_ripping_droplet",
+    "name": "Ripping Droplet",
+    "type": "Page",
+    "cost": 0,
+    "component": "Hydromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Ripping Droplet"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/yhPrr7F_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_component_gem_hydromancy": {
+    "id": "official_component_gem_hydromancy",
+    "name": "Component Gem: Hydromancy",
+    "type": "Page",
+    "cost": 0,
+    "component": "Hydromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Component Gem: Hydromancy"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/W4zC9uk_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_hydrotech_trident": {
+    "id": "official_hydrotech_trident",
+    "name": "Hydrotech Trident",
+    "type": "Page",
+    "cost": 0,
+    "component": "Hydromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Hydrotech Trident"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/r3pzo5X_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_crystallized_frost_tome": {
+    "id": "official_crystallized_frost_tome",
+    "name": "Crystallized Frost Tome",
+    "type": "Page",
+    "cost": 0,
+    "component": "Hydromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Crystallized Frost Tome"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/8zGibzV_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_rock_toss": {
+    "id": "official_rock_toss",
+    "name": "Rock Toss",
+    "type": "Page",
+    "cost": 0,
+    "component": "Geomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Rock Toss"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/5yBfhm5_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_tumbling_stones": {
+    "id": "official_tumbling_stones",
+    "name": "Tumbling Stones",
+    "type": "Page",
+    "cost": 0,
+    "component": "Geomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Tumbling Stones"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/qUsE5sG_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_mineral_smash": {
+    "id": "official_mineral_smash",
+    "name": "Mineral Smash",
+    "type": "Page",
+    "cost": 0,
+    "component": "Geomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Mineral Smash"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Hj7uaS7_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_devastating_landslide": {
+    "id": "official_devastating_landslide",
+    "name": "Devastating Landslide",
+    "type": "Page",
+    "cost": 0,
+    "component": "Geomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Devastating Landslide"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/cARX0EI_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_stalagmite_strike": {
+    "id": "official_stalagmite_strike",
+    "name": "Stalagmite Strike",
+    "type": "Page",
+    "cost": 0,
+    "component": "Geomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Stalagmite Strike"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/qW3FC00_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_boulderdash": {
+    "id": "official_boulderdash",
+    "name": "Boulderdash",
+    "type": "Page",
+    "cost": 0,
+    "component": "Geomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Boulderdash"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/bojxqIL_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_geo_elemental": {
+    "id": "official_geo_elemental",
+    "name": "Geo Elemental",
+    "type": "Page",
+    "cost": 0,
+    "component": "Geomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Geo Elemental"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/vxSNEQf_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_tectonic_shift": {
+    "id": "official_tectonic_shift",
+    "name": "Tectonic Shift",
+    "type": "Page",
+    "cost": 0,
+    "component": "Geomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Tectonic Shift"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/pPa8jLx_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_component_gem_geomancy": {
+    "id": "official_component_gem_geomancy",
+    "name": "Component Gem: Geomancy",
+    "type": "Page",
+    "cost": 0,
+    "component": "Geomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Component Gem: Geomancy"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/omil0wJ_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_geotech_warhammer": {
+    "id": "official_geotech_warhammer",
+    "name": "Geotech Warhammer",
+    "type": "Page",
+    "cost": 0,
+    "component": "Geomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Geotech Warhammer"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/yMANHCM_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_gravity_shield": {
+    "id": "official_gravity_shield",
+    "name": "Gravity Shield",
+    "type": "Page",
+    "cost": 0,
+    "component": "Geomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Gravity Shield"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/E68lkef_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_gale_strike": {
+    "id": "official_gale_strike",
+    "name": "Gale Strike",
+    "type": "Page",
+    "cost": 0,
+    "component": "Aeromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Gale Strike"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/0enjOb3_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_zephyr_blade": {
+    "id": "official_zephyr_blade",
+    "name": "Zephyr Blade",
+    "type": "Page",
+    "cost": 0,
+    "component": "Aeromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Zephyr Blade"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/y3HA2op_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_ripping_tornado": {
+    "id": "official_ripping_tornado",
+    "name": "Ripping Tornado",
+    "type": "Page",
+    "cost": 0,
+    "component": "Aeromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Ripping Tornado"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/MbRhQXG_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_sonic_squall": {
+    "id": "official_sonic_squall",
+    "name": "Sonic Squall",
+    "type": "Page",
+    "cost": 0,
+    "component": "Aeromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Sonic Squall"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/bX5QiKk_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_vicious_cyclone": {
+    "id": "official_vicious_cyclone",
+    "name": "Vicious Cyclone",
+    "type": "Page",
+    "cost": 0,
+    "component": "Aeromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Vicious Cyclone"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/RLgAanN_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_tearing_tempest": {
+    "id": "official_tearing_tempest",
+    "name": "Tearing Tempest",
+    "type": "Page",
+    "cost": 0,
+    "component": "Aeromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Tearing Tempest"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/F9zT2RC_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_aero_elemental": {
+    "id": "official_aero_elemental",
+    "name": "Aero Elemental",
+    "type": "Page",
+    "cost": 0,
+    "component": "Aeromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Aero Elemental"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/FeCIV8U_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_lost_notes": {
+    "id": "official_lost_notes",
+    "name": "Lost Notes",
+    "type": "Page",
+    "cost": 0,
+    "component": "Aeromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Lost Notes"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Pynvjde_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_component_gem_aeromancy": {
+    "id": "official_component_gem_aeromancy",
+    "name": "Component Gem: Aeromancy",
+    "type": "Page",
+    "cost": 0,
+    "component": "Aeromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Component Gem: Aeromancy"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/hxY1HQn_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_aerotech_boots": {
+    "id": "official_aerotech_boots",
+    "name": "Aerotech Boots",
+    "type": "Page",
+    "cost": 0,
+    "component": "Aeromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Aerotech Boots"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Enp9OpR_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_sky_slicing_scimitar": {
+    "id": "official_sky_slicing_scimitar",
+    "name": "Sky-Slicing Scimitar",
+    "type": "Page",
+    "cost": 0,
+    "component": "Aeromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Sky-Slicing Scimitar"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/aIh37ee_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_bolt_beam": {
+    "id": "official_bolt_beam",
+    "name": "Bolt Beam",
+    "type": "Page",
+    "cost": 0,
+    "component": "Electromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Bolt Beam"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/usy81nZ_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_ionic_arrow": {
+    "id": "official_ionic_arrow",
+    "name": "ionic Arrow",
+    "type": "Page",
+    "cost": 0,
+    "component": "Electromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "ionic Arrow"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/TtiYoOt_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_violent_thunderstorm": {
+    "id": "official_violent_thunderstorm",
+    "name": "Violent Thunderstorm",
+    "type": "Page",
+    "cost": 0,
+    "component": "Electromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Violent Thunderstorm"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/h3tTQAx_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_thunderbolt_spears": {
+    "id": "official_thunderbolt_spears",
+    "name": "Thunderbolt Spears",
+    "type": "Page",
+    "cost": 0,
+    "component": "Electromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Thunderbolt Spears"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/1uL8m0k_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_conduction_wave": {
+    "id": "official_conduction_wave",
+    "name": "Conduction Wave",
+    "type": "Page",
+    "cost": 0,
+    "component": "Electromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Conduction Wave"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/bMLJkJo_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_spark_blast": {
+    "id": "official_spark_blast",
+    "name": "Spark Blast",
+    "type": "Page",
+    "cost": 0,
+    "component": "Electromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Spark Blast"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/81WaX3t_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_electro_elemental": {
+    "id": "official_electro_elemental",
+    "name": "Electro Elemental",
+    "type": "Page",
+    "cost": 0,
+    "component": "Electromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Electro Elemental"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/eGimQrm_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_energizing_roar": {
+    "id": "official_energizing_roar",
+    "name": "Energizing Roar",
+    "type": "Page",
+    "cost": 0,
+    "component": "Electromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Energizing Roar"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Ytq4Xod_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_component_gem_electromancy": {
+    "id": "official_component_gem_electromancy",
+    "name": "Component Gem: Electromancy",
+    "type": "Page",
+    "cost": 0,
+    "component": "Electromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Component Gem: Electromancy"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/HGu6mMF_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_electrotech_battery": {
+    "id": "official_electrotech_battery",
+    "name": "Electrotech Battery",
+    "type": "Page",
+    "cost": 0,
+    "component": "Electromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Electrotech Battery"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/lN6Zu0F_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_thundercrash_war_drums": {
+    "id": "official_thundercrash_war_drums",
+    "name": "Thundercrash War Drums",
+    "type": "Page",
+    "cost": 0,
+    "component": "Electromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Thundercrash War Drums"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/ZckHz1M_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_seed_shower": {
+    "id": "official_seed_shower",
+    "name": "Seed Shower",
+    "type": "Page",
+    "cost": 0,
+    "component": "Biomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Seed Shower"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/whpSdob_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_scattershot_acorn": {
+    "id": "official_scattershot_acorn",
+    "name": "Scattershot Acorn",
+    "type": "Page",
+    "cost": 0,
+    "component": "Biomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Scattershot Acorn"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/wuo8gGu_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_pinecone_cannon": {
+    "id": "official_pinecone_cannon",
+    "name": "Pinecone Cannon",
+    "type": "Page",
+    "cost": 0,
+    "component": "Biomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Pinecone Cannon"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/4rtHz7y_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_perennial_petal_storm": {
+    "id": "official_perennial_petal_storm",
+    "name": "Perennial Petal Storm",
+    "type": "Page",
+    "cost": 0,
+    "component": "Biomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Perennial Petal Storm"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/et29ohq_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_pollen_spray": {
+    "id": "official_pollen_spray",
+    "name": "Pollen Spray",
+    "type": "Page",
+    "cost": 0,
+    "component": "Biomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Pollen Spray"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/rxU70Kp_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_vicious_vines": {
+    "id": "official_vicious_vines",
+    "name": "Vicious Vines",
+    "type": "Page",
+    "cost": 0,
+    "component": "Biomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Vicious Vines"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/IMSErEl_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_bio_elemental": {
+    "id": "official_bio_elemental",
+    "name": "Bio Elemental",
+    "type": "Page",
+    "cost": 0,
+    "component": "Biomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Bio Elemental"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/8nVXdB6_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_miracle_seeds": {
+    "id": "official_miracle_seeds",
+    "name": "Miracle Seeds",
+    "type": "Page",
+    "cost": 0,
+    "component": "Biomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Miracle Seeds"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/H2W2GRa_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_component_gem_biomancy": {
+    "id": "official_component_gem_biomancy",
+    "name": "Component Gem: Biomancy",
+    "type": "Page",
+    "cost": 0,
+    "component": "Biomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Component Gem: Biomancy"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/iZbdPvO_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_biotech_spade": {
+    "id": "official_biotech_spade",
+    "name": "Biotech Spade",
+    "type": "Page",
+    "cost": 0,
+    "component": "Biomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Biotech Spade"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/XmU4CHw_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_bountiful_cornucopia": {
+    "id": "official_bountiful_cornucopia",
+    "name": "Bountiful Cornucopia",
+    "type": "Page",
+    "cost": 0,
+    "component": "Biomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Bountiful Cornucopia"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/JvyK2Tp_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_mind_blast": {
+    "id": "official_mind_blast",
+    "name": "Mind Blast",
+    "type": "Page",
+    "cost": 0,
+    "component": "Psychomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Mind Blast"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/ocnvtCO_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_phantom_flash": {
+    "id": "official_phantom_flash",
+    "name": "Phantom Flash",
+    "type": "Page",
+    "cost": 0,
+    "component": "Psychomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Phantom Flash"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/gfPe3CF_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_ominous_foresight": {
+    "id": "official_ominous_foresight",
+    "name": "Ominous Foresight",
+    "type": "Page",
+    "cost": 0,
+    "component": "Psychomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Ominous Foresight"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/2gPzEGl_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_galactic_brain_waves": {
+    "id": "official_galactic_brain_waves",
+    "name": "Galactic Brain Waves",
+    "type": "Page",
+    "cost": 0,
+    "component": "Psychomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Galactic Brain Waves"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Ome3Ls4_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_kineticut": {
+    "id": "official_kineticut",
+    "name": "Kineticut",
+    "type": "Page",
+    "cost": 0,
+    "component": "Psychomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Kineticut"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/1CbdKJ5_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_dream_burst": {
+    "id": "official_dream_burst",
+    "name": "Dream Burst",
+    "type": "Page",
+    "cost": 0,
+    "component": "Psychomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Dream Burst"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/ZX0FGK3_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_psyche_elemental": {
+    "id": "official_psyche_elemental",
+    "name": "Psyche Elemental",
+    "type": "Page",
+    "cost": 0,
+    "component": "Psychomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Psyche Elemental"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Rn2OWUj_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_explore_the_realms": {
+    "id": "official_explore_the_realms",
+    "name": "Explore The Realms",
+    "type": "Page",
+    "cost": 0,
+    "component": "Psychomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Explore The Realms"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/67DAdkU_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_component_gem_psychomancy": {
+    "id": "official_component_gem_psychomancy",
+    "name": "Component Gem: Psychomancy",
+    "type": "Page",
+    "cost": 0,
+    "component": "Psychomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Component Gem: Psychomancy"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/GudBtn5_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_psychotech_globe": {
+    "id": "official_psychotech_globe",
+    "name": "Psychotech Globe",
+    "type": "Page",
+    "cost": 0,
+    "component": "Psychomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Psychotech Globe"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/38UiNCu_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_deck_of_divinations": {
+    "id": "official_deck_of_divinations",
+    "name": "Deck of Divinations",
+    "type": "Page",
+    "cost": 0,
+    "component": "Psychomancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Deck of Divinations"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/hN38MoX_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_monkey_wrench": {
+    "id": "official_monkey_wrench",
+    "name": "Monkey Wrench",
+    "type": "Page",
+    "cost": 0,
+    "component": "Ferromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Monkey Wrench"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/JuNEpkU_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_hammerhead": {
+    "id": "official_hammerhead",
+    "name": "Hammerhead",
+    "type": "Page",
+    "cost": 0,
+    "component": "Ferromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Hammerhead"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/XLX7p4F_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_porkscrew": {
+    "id": "official_porkscrew",
+    "name": "Porkscrew",
+    "type": "Page",
+    "cost": 0,
+    "component": "Ferromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Porkscrew"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/QREj233_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_gadget_barrage": {
+    "id": "official_gadget_barrage",
+    "name": "Gadget Barrage",
+    "type": "Page",
+    "cost": 0,
+    "component": "Ferromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Gadget Barrage"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/wIYQ0Ho_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_buzzsaw": {
+    "id": "official_buzzsaw",
+    "name": "Buzzsaw",
+    "type": "Page",
+    "cost": 0,
+    "component": "Ferromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Buzzsaw"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/3Q0BrU8_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_shrapnel_storm": {
+    "id": "official_shrapnel_storm",
+    "name": "Shrapnel Storm",
+    "type": "Page",
+    "cost": 0,
+    "component": "Ferromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Shrapnel Storm"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Bb0IFSw_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_ferro_elemental": {
+    "id": "official_ferro_elemental",
+    "name": "Ferro Elemental",
+    "type": "Page",
+    "cost": 0,
+    "component": "Ferromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Ferro Elemental"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/nQkoerG_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_gear_up": {
+    "id": "official_gear_up",
+    "name": "Gear Up",
+    "type": "Page",
+    "cost": 0,
+    "component": "Ferromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Gear Up"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/QKV3Lvb_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_component_gem_ferromancy": {
+    "id": "official_component_gem_ferromancy",
+    "name": "Component Gem: Ferromancy",
+    "type": "Page",
+    "cost": 0,
+    "component": "Ferromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Component Gem: Ferromancy"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/tLrtP9F_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_geartech_omnihilt": {
+    "id": "official_geartech_omnihilt",
+    "name": "Geartech Omnihilt",
+    "type": "Page",
+    "cost": 0,
+    "component": "Ferromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Geartech Omnihilt"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/5PECwWY_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_omnium_arsenal": {
+    "id": "official_omnium_arsenal",
+    "name": "Omnium Arsenal",
+    "type": "Page",
+    "cost": 0,
+    "component": "Ferromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Omnium Arsenal"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Tbtzvhl_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_shadow_strike": {
+    "id": "official_shadow_strike",
+    "name": "Shadow Strike",
+    "type": "Page",
+    "cost": 0,
+    "component": "Umbramancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Shadow Strike"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/4jwugZE_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_dark_side": {
+    "id": "official_dark_side",
+    "name": "Dark Side",
+    "type": "Page",
+    "cost": 0,
+    "component": "Umbramancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Dark Side"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/2oLU3dX_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_shades_of_madness": {
+    "id": "official_shades_of_madness",
+    "name": "Shades of Madness",
+    "type": "Page",
+    "cost": 0,
+    "component": "Umbramancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Shades of Madness"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Z0hSMUg_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_conemn_to_shadows": {
+    "id": "official_conemn_to_shadows",
+    "name": "Conemn to Shadows",
+    "type": "Page",
+    "cost": 0,
+    "component": "Umbramancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Conemn to Shadows"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Wch0Okg_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_toxic_shot": {
+    "id": "official_toxic_shot",
+    "name": "Toxic Shot",
+    "type": "Page",
+    "cost": 0,
+    "component": "Umbramancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Toxic Shot"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Q5JOQaa_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_plague_of_undeath": {
+    "id": "official_plague_of_undeath",
+    "name": "Plague of Undeath",
+    "type": "Page",
+    "cost": 0,
+    "component": "Umbramancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Plague of Undeath"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/P3UNSn8_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_umbra_elemental": {
+    "id": "official_umbra_elemental",
+    "name": "Umbra Elemental",
+    "type": "Page",
+    "cost": 0,
+    "component": "Umbramancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Umbra Elemental"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Smx3kgt_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_life_trade": {
+    "id": "official_life_trade",
+    "name": "Life Trade",
+    "type": "Page",
+    "cost": 0,
+    "component": "Umbramancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Life Trade"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/sjH7ko3_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_component_gem_umbramancy": {
+    "id": "official_component_gem_umbramancy",
+    "name": "Component Gem: Umbramancy",
+    "type": "Page",
+    "cost": 0,
+    "component": "Umbramancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Component Gem: Umbramancy"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/QojsJGD_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_umbratech_dagger": {
+    "id": "official_umbratech_dagger",
+    "name": "Umbratech Dagger",
+    "type": "Page",
+    "cost": 0,
+    "component": "Umbramancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Umbratech Dagger"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/eEGUVYl_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_bag_o_bones": {
+    "id": "official_bag_o_bones",
+    "name": "Bag O' Bones",
+    "type": "Page",
+    "cost": 0,
+    "component": "Umbramancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Bag O' Bones"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/QNAxDzQ_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_glimmerwing": {
+    "id": "official_glimmerwing",
+    "name": "Glimmerwing",
+    "type": "Page",
+    "cost": 0,
+    "component": "Astromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Glimmerwing"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/uoIV2R4_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_cosmic_beast": {
+    "id": "official_cosmic_beast",
+    "name": "Cosmic Beast",
+    "type": "Page",
+    "cost": 0,
+    "component": "Astromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Cosmic Beast"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/8n2gpqW_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_rainbow_horn": {
+    "id": "official_rainbow_horn",
+    "name": "Rainbow Horn",
+    "type": "Page",
+    "cost": 0,
+    "component": "Astromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Rainbow Horn"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/vou7xgo_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_celestial_revolution": {
+    "id": "official_celestial_revolution",
+    "name": "Celestial Revolution",
+    "type": "Page",
+    "cost": 0,
+    "component": "Astromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Celestial Revolution"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/S689HFx_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_hope_rays": {
+    "id": "official_hope_rays",
+    "name": "Hope Rays",
+    "type": "Page",
+    "cost": 0,
+    "component": "Astromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Hope Rays"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/PB4tkFm_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_radiant_beam": {
+    "id": "official_radiant_beam",
+    "name": "Radiant Beam",
+    "type": "Page",
+    "cost": 0,
+    "component": "Astromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Radiant Beam"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/dXwPEmD_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_astro_elemental": {
+    "id": "official_astro_elemental",
+    "name": "Astro Elemental",
+    "type": "Page",
+    "cost": 0,
+    "component": "Astromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Astro Elemental"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/wPiaXUC_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_time_anomaly": {
+    "id": "official_time_anomaly",
+    "name": "Time Anomaly",
+    "type": "Page",
+    "cost": 0,
+    "component": "Astromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Time Anomaly"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/jyODqV3_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_component_gem_astromancy": {
+    "id": "official_component_gem_astromancy",
+    "name": "Component Gem: Astromancy",
+    "type": "Page",
+    "cost": 0,
+    "component": "Astromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Component Gem: Astromancy"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/Bjri4WM_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_astrotech_clock": {
+    "id": "official_astrotech_clock",
+    "name": "Astrotech Clock",
+    "type": "Page",
+    "cost": 0,
+    "component": "Astromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Astrotech Clock"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/wj7KB5e_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_shimmering_mage_hat": {
+    "id": "official_shimmering_mage_hat",
+    "name": "Shimmering Mage Hat",
+    "type": "Page",
+    "cost": 0,
+    "component": "Astromancy",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Shimmering Mage Hat"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/zEGqaY7_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_punch": {
+    "id": "official_punch",
+    "name": "Punch",
+    "type": "Page",
+    "cost": 0,
+    "component": "Universal",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Punch"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/cXK5QIK_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_guard": {
+    "id": "official_guard",
+    "name": "Guard",
+    "type": "Page",
+    "cost": 0,
+    "component": "Universal",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Guard"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/vCbkuVM_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_banishment": {
+    "id": "official_banishment",
+    "name": "Banishment",
+    "type": "Page",
+    "cost": 0,
+    "component": "Universal",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Banishment"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/DC8E5qs_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  },
+  "official_disarmament": {
+    "id": "official_disarmament",
+    "name": "Disarmament",
+    "type": "Page",
+    "cost": 0,
+    "component": "Universal",
+    "text": "Valiance card face imported from the supplied card list. Read the printed card image for its actual type, cost, power, and rules.",
+    "face": {
+      "front": {
+        "name": {
+          "name": "Disarmament"
+        },
+        "type": "Page",
+        "cost": 0,
+        "image": "https://i.imgur.com/o6T7M1p_d.webp?maxwidth=760&fidelity=grand"
+      }
+    }
+  }
+}
