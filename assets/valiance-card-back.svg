@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="1050" viewBox="0 0 750 1050" role="img" aria-labelledby="title">
+  <title id="title">Valiance card back</title>
+  <defs>
+    <radialGradient id="void" cx="50%" cy="50%" r="70%">
+      <stop stop-color="#455c51"/>
+      <stop offset=".55" stop-color="#19231e"/>
+      <stop offset="1" stop-color="#070a08"/>
+    </radialGradient>
+  </defs>
+  <rect width="750" height="1050" fill="#080b09"/>
+  <rect x="27" y="27" width="696" height="996" rx="24" fill="url(#void)" stroke="#d7c878" stroke-width="10"/>
+  <circle cx="375" cy="525" r="260" fill="none" stroke="#f4e5a0" stroke-width="10"/>
+  <circle cx="375" cy="525" r="190" fill="none" stroke="#d7c878" stroke-width="6" stroke-dasharray="10 14"/>
+  <path d="M375 345 487 525 375 705 263 525Z" fill="none" stroke="#f4e5a0" stroke-width="18"/>
+  <path d="M375 423 430 525 375 627 320 525Z" fill="#d9b94d" fill-opacity=".3"/>
+  <text x="375" y="155" fill="#f6e7a0" font-family="Georgia, serif" font-size="62" font-weight="700" letter-spacing="12" text-anchor="middle">VALIANCE</text>
+  <text x="375" y="895" fill="#d7c878" font-family="Arial, sans-serif" font-size="26" letter-spacing="5" text-anchor="middle">SPELLBOOK</text>
+</svg>
