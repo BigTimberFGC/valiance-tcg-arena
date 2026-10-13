@@ -23,8 +23,8 @@ intentional: Arena does not implement individual card effects automatically.
 
 ## Load from GitHub
 
-No local server is required. This package is staged for the public repository
-`BigTimberFGC/valiance-tcg-arena`. Once published, load it in TCG Arena here:
+No local server is required. This public package lives in
+`BigTimberFGC/valiance-tcg-arena`. Load it in TCG Arena here:
 
 `https://tcg-arena.fr/load/aHR0cHMlM0ElMkYlMkZyYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tJTJGQmlnVGltYmVyRkdDJTJGdmFsaWFuY2UtdGNnLWFyZW5hJTJGbWFpbiUyRkdhbWUuanNvbg==`
 
